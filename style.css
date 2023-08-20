@@ -1,0 +1,150 @@
+body {
+    font-family: 'Macondo Swash Caps', cursive;
+}
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.header-text {
+    /* font-family: "Helvetica Neue", Arial, sans-serif; */
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.purple-color {
+    color: #8070ac;
+}
+.green-color {
+    color: #62b49c;
+}
+.red-color {
+    color: #b96b78;
+}
+
+.main {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.scoreboard {
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    /* font-family: 'Open Sans', sans-serif; */
+    margin-bottom: 30px;
+}
+
+.score-info {
+    font-size: 40px;
+}
+
+.score-message {
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+.score-details {
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.scorebox {
+    width: 170px;
+    border: 1px solid #000000;
+    margin: 10px auto;
+    padding: 10px auto;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.sign {
+    /* object-fit: cover; */
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sign img{
+    margin-top: 10px;
+    width: 60px;
+    height:60px;
+    object-fit: contain;
+}
+
+.score {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttons {
+    /* border: 1px solid #ffffff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: #393e46;
+}
+
+.btn-square {
+    width: 100px;
+    height: 100px;
+}
+
+.image-one img,
+.image-two img,
+.image-three img{
+    margin-bottom: 10px;
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: 100%; /* Ensures the image takes up the full height of its container */
+}
+  
+/* Game end */
+.game-end {
+    text-align: center;
+}
+
+.game-end-text {
+    font-size: 50px;
+}
+
+.fight-again {
+    visibility: hidden;
+    margin-bottom: 60px;
+    padding: 20px;
+    font-size: 25px;
+    color: #5e5e5e;
+    border: 4px solid #5e5e5e;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.copyright {
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 4px solid #5e5e5e;
+    text-align: center;
+}
