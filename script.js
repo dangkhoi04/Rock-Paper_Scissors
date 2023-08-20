@@ -75,16 +75,19 @@ function playRound(playerSelection, computerSelection) {
 function updateScoreMessage(roundWinner, playerSelection, computerSelection) {
     if (roundWinner === "player") {
         scoreMessage.textContent = `${playerSelection} beats ${computerSelection}`;
+        scoreMessage.style.color = "#62b49c";
         scoreInfo.textContent = "You won!";
         return;
     }
     else if (roundWinner === "computer") {
         scoreMessage.textContent = `${computerSelection} beats ${playerSelection}`;
+        scoreMessage.style.color = '#b96b78';
         scoreInfo.textContent = "Computer won!";
         return;
     }
     else {
         scoreMessage.textContent = `${playerSelection} ties with ${computerSelection}`;
+        scoreMessage.style.color = "#8070ac";
         scoreInfo.textContent = "It\'s a fucking tie!";
         return;
     }
